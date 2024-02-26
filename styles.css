@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: 'Courier New', monospace;
+    overflow: hidden;
+}
+
+.matrix-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#ipAddress {
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.matrix-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.matrix-container p {
+    margin: 10px;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+#warning {
+    display: none; /* Cache initialement les logos d'attention */
+    animation: blink 1s infinite; /* Fait clignoter l'élément toutes les 1 seconde */
+}
+
+#€ {
+    
+     animation-delay: 4s;
+
+}
